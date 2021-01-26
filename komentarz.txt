@@ -1,0 +1,17 @@
+1.
+kod bazowy.
+average: 6890
+throughput: 49,3/min
+
+poprawki:
+w get() dodaje zmienna, ktora przyjmuje wartosc z averageSpendings(), 
+zeby nie korzystac z dao wiele razy.
+
+po modyfikacji.
+average: 8
+throughput: 2,0/sec
+
+2.
+poczatkowy throughput: 2.0/sec czyli 7200 kart na godzine
+wymagana liczba drukarek: 29
+wtedy throughput wynosi 5.7/sec czyli 20520 kart na godzine
